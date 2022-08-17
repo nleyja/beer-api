@@ -1,23 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
 
+
+import BeerCards from './components/BeerCards/BeerCards';
+import BeerContainer from './components/BeerContainer/BeerContainer';
+import beers from './data/beers';
+
+import { useState, useEffect } from 'react';
+
 function App() {
+
+  // const mappedBeers = beers.map((beer) => {
+  //   return <BeerContainer name = {beer} />
+  // })
+
+  const [ beers, setBeers] =useState()
+
+  const getBeers = () => {
+    fetch("https://api.punkapi.com/v2/beers")
+    .then((res)=> {
+      return res.json()
+    })
+    .then((data) => {
+      setBeers(data)
+      console.log(data)
+    })
+  }
+
+  useEffect (getBeers,[])
+  // happens on component mount
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="title">Beers of the World</h1>
+      <div>
+        {beers && <BeerContainer beersArr={beers}/>}
+        
+      </div>
     </div>
   );
 }
