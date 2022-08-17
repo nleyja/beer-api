@@ -1,25 +1,12 @@
-.page {
-  border: 2px solid red;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 30px;
-  gap: 20px;
-}
 
-.card {
-  border: 2px solid greenyellow;
-  width: 40vw;
-  border-radius: 10px;
-  margin: 10px;
-  background-color: #fffeff;
-  box-shadow: 0 0 10px 2px;
-  
-}
+.App {
+  border: 2px solid orange;
+  background-color: #a7c5da;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(5, auto);
 
-// .App {
-//   background-color: #a7c5da;
-// }
+}
 
 // .title {
 //   border: 2px solid orange;
@@ -27,8 +14,9 @@
 //   justify-content: center;
 // }
 
-.beer-image {
-  border: 2px solid yellow;
-  height: 200px;
-  width: 100px;
+
+
+
+.beer-card {
+  border: 2px sold red;
 }

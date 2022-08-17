@@ -1,0 +1,22 @@
+.profile-card {
+  border: 2px solid red;
+  width: 25vw;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #fffeff;
+  box-shadow: 0 0 10px 2px;
+
+}
+
+.profile-card__content{
+  border: 2px solid purple;
+
+}
+
+.profile-card__image {
+  border: 2px solid greenyellow;
+  height: 200px;
+  width: auto;
+  padding: 20px;
+  margin: 15px;
+}
