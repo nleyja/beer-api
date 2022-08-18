@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <header>
+      <header className='header-content'>
         <Header />
       </header>
       <div className='all-cards'>
