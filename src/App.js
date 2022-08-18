@@ -4,8 +4,10 @@ import './App.css';
 import BeerCards from './components/BeerCards/BeerCards';
 import BeerContainer from './components/BeerContainer/BeerContainer';
 import beers from './data/beers';
+import Header from './components/Header/Header';
 
 import { useState, useEffect } from 'react';
+import NavMenu from './components/NavMenu/NavMenu';
 
 function App() {
 
@@ -31,10 +33,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="title">Beers of the World</h1>
-      <div>
+      <header>
+        <Header />
+      </header>
+      <div className='all-cards'>
+        <div className="nav">
+          <NavMenu  />
+        </div>
         {beers && <BeerContainer beersArr={beers}/>}
-        
       </div>
     </div>
   );

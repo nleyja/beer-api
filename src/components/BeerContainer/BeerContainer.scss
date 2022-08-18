@@ -2,9 +2,7 @@
 .App {
   border: 2px solid orange;
   background-color: #a7c5da;
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  grid-template-rows: repeat(5, auto);
+  
 
 }
 
@@ -13,8 +11,6 @@
 //   display: flex;
 //   justify-content: center;
 // }
-
-
 
 
 .beer-card {
