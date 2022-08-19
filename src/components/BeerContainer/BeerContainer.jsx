@@ -17,9 +17,9 @@ const BeerContainer =  (props) => {
   })
 
   return(
-   <>
+   <div className="beer-profile">
    {beerProfile}
-   </>
+   </div>
   )
 }
 

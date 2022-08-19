@@ -37,9 +37,9 @@ function App() {
         <Header />
       </header>
       <div className='all-cards'>
-        <div className="nav">
-          <NavMenu  />
-        </div>
+        <nav className='nav-bar'>
+         {beers && <NavMenu  setBeers={setBeers} beersArr={beers}/>}
+        </nav>
         {beers && <BeerContainer beersArr={beers}/>}
       </div>
     </div>
