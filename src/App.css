@@ -1,5 +1,12 @@
 .App {
+  border: 2px solid red;
   text-align: center;
+  height: 100%;
+  width: 100%;
+  
+
+  
+  
   
 }
 
@@ -11,10 +18,10 @@
 }
 
 .nav-bar {
-  border: 2px solid red;
+  border: 2px dotted red;
   display: flex;
   justify-content: center;
-  width: 400px;
+  width: 450px;
   padding: 10px;
 }
 
