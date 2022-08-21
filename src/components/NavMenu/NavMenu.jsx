@@ -57,10 +57,10 @@ const NavMenu = (props) => {
         <p>Search Beers</p>
         <input onInput={handleSearchInput} placeholder="Find Beers" type="text" />
       </div>
-      <p onClick={() =>setBeers(allBeers)}>All Beers</p>
-      <p onClick={() =>setBeers(filterClassic)}>Classic Beers</p>
-      <p onClick={() =>setBeers(filterABV)}>High ABV</p>
-      <p onClick={() =>setBeers(filterHighAcidity)} >High Acidity</p>
+      <p className="search__filters" onClick={() =>setBeers(allBeers)}>All Beers</p>
+      <p className="search__filters" onClick={() =>setBeers(filterClassic)}>Classic Beers</p>
+      <p className="search__filters" onClick={() =>setBeers(filterABV)}>High ABV</p>
+      <p className="search__filters" onClick={() =>setBeers(filterHighAcidity)} >High Acidity</p>
     </nav>
   )
 }
