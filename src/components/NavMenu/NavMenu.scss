@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle&display=swap');
+
 .nav-menu {
 width: 150px;
 border: 2px dotted orange;
@@ -5,6 +7,17 @@ border: 2px dotted orange;
 
 .search__filters:hover {
   cursor: pointer;
-  background-color: #fec438;
-  
+  background-color: #e7646a;
 }
+
+p {
+  font-family: 'Molle', cursive;
+}
+
+// @media screen and (min-width: 300px) {
+//   .nav-menu {
+//     display: flex;
+//     flex-direction: column;
+  
+//   }
+// }

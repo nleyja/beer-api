@@ -1,22 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle&display=swap');
 .profile-card {
-  width: 250px;
-  border-radius: 10px;
-  margin: 10px;
-  background-color: #fffeff;
-  box-shadow: 0 0 10px 2px;
-  border: 2px solid greenyellow;
-
   // width: 250px;
-  
-  // margin: 10px;
+  // border-radius: 10px;
+  // margin: 20px;
   // background-color: #fffeff;
-  // border-style:  solid;
-  // border-width: 3px;
-  // box-shadow: 10px -10px;
+  // box-shadow: 0 0 10px 2px;
   // border: 2px solid greenyellow;
-  
 
-  
+  width: 250px;
+  margin: 20px;
+  background-color: #fffeff;
+  border-style:  solid;
+  border-width: 3px;
+  box-shadow: 10px -10px;
+  border: 2px solid greenyellow;
 }
 
 .profile-card__content{
@@ -30,3 +27,8 @@
   padding: 20px;
   margin: 15px;
 }
+
+h2 {
+  font-family: 'Molle', cursive;
+}
+

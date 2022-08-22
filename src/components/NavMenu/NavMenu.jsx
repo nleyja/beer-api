@@ -1,4 +1,5 @@
 import "./NavMenu.scss";
+
 import HighAcidity from "../HighAcidity/HighAcidity";
 import HighABV from "../HighABV/HighABV";
 import { useEffect, useRef } from "react";
@@ -48,8 +49,6 @@ const NavMenu = (props) => {
 
       setBeers(searchBox)
     }
-
-
 
   return (
     <nav className="nav-menu">
