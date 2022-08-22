@@ -1,6 +1,4 @@
 .App {
-  border: 2px solid red;
-  
   background-color: #578ac9;
   text-align: center;
   height: 100vh;
@@ -8,24 +6,24 @@
 }
 
 .all-cards {
-  border: 2px solid blue;
   display: flex;
-
-  
 }
 
 .nav-bar {
-  border: 2px dotted red;
   background-color: #a7c5da;
   display: flex;
   justify-content: center;
   width: 450px;
   padding: 10px;
+  border-style:  solid;
+  border-width: 3px;
+  box-shadow: 10px -10px;
+  margin-left: 10px;
 }
 
-.header-content {
+/* .header-content {
   border: 2px solid pink;
-}
+} */
 
 @media screen and (max-width: 500px) {
   .all-cards {

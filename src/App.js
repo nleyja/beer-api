@@ -1,9 +1,6 @@
 import './App.css';
 
-
-import BeerCards from './components/BeerCards/BeerCards';
 import BeerContainer from './components/BeerContainer/BeerContainer';
-import beers from './data/beers';
 import Header from './components/Header/Header';
 
 import { useState, useEffect } from 'react';
